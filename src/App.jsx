@@ -11,6 +11,7 @@ import Testimonial from './components/Testimonial';
 import CommunityUpdates from './components/CommunityUpdates';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
+import ProductPage from './components/ProductPage'; // Import the new component
 // Removed './App.css' import as it's likely not needed with Tailwind
 // import './App.css';
 
@@ -29,6 +30,7 @@ function App() {
         <CommunityUpdates />
         <CTASection />
       </main>
+      <ProductPage /> {/* Add the ProductPage component */}
       <Footer />
     </div>
   );
