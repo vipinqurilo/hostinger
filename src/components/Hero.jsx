@@ -10,7 +10,7 @@ const Hero = () => {
         {/* Text Content */}
         <div className="md:w-3/5 text-center md:text-left">
           <h1 className="text-4xl lg:text-6xl font-semibold text-neutral-d-grey mb-4 leading-tight">
-            Lessons and insights <span className="text-primary">from 8 years</span>
+             and insights <span className="text-primary">from 8 years</span>
           </h1>
           <p className="text-neutral-grey mb-8">
             Where to grow your business as a photographer: site or social media?
