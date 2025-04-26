@@ -11,12 +11,12 @@ function ProductPage() {
     // Note: In Create React App, env vars must be prefixed with REACT_APP_
     const shouldFetch = process.env.REACT_APP_FETCH_PRODUCTS === 'YES';
     setFetchEnabled(shouldFetch);
-
+ 
     if (shouldFetch) {
       setLoading(true); // Set loading to true only when fetching starts
       fetch('https://dummyjson.com/products?limit=10')
         .then(response => {
-          if (!response.ok) {
+          if (!response.ok) { 
           throw new Error('Network response was not ok');
         }
         return response.json();
