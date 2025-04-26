@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 // import './App.css';
 
 function App() {
-  return (
+  return ( 
     <div className="App font-inter"> {/* Added font-inter globally */}
       <Navbar />
       <main>
